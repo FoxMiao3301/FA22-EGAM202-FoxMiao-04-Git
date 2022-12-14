@@ -3043,6 +3043,7 @@ GameObject:
   - component: {fileID: 519420029}
   - component: {fileID: 519420033}
   - component: {fileID: 519420034}
+  - component: {fileID: 519420035}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -3157,6 +3158,176 @@ Behaviour:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 519420028}
   m_Enabled: 1
+--- !u!114 &519420035
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 519420028}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8ba5113e7208c4316acb1028a08587a2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  shader1: {fileID: 4800000, guid: e5b137a48bf2c4c668927fd89b6ccbcd, type: 3}
+  shader2: {fileID: 4800000, guid: e2075d3cd3deb45c78fdc81aab250ef7, type: 3}
+  shader3: {fileID: 4800000, guid: de4e63e4455b14b8e8c57542f8089707, type: 3}
+  shader4: {fileID: 4800000, guid: 65c19848f188f4192a05ff1eece78fee, type: 3}
+  shader_clear: {fileID: 4800000, guid: 3c6a64923374747f7b15711533b5971a, type: 3}
+  shader_tape: {fileID: 4800000, guid: caea6b3daf52a4416949b7b9c0146d77, type: 3}
+  mat1: {fileID: 999950673}
+  mat2: {fileID: 1664671266}
+  mat3: {fileID: 744806557}
+  mat4: {fileID: 1942523007}
+  mat_clear: {fileID: 1152616757}
+  mat_tape: {fileID: 1599211555}
+  g_showCRT: 1
+  g_showNoise: 1
+  g_showJitter: 1
+  g_showSignal: 1
+  g_showFeedback: 1
+  g_showExtra: 0
+  g_showBypass: 0
+  bleedOn: 1
+  crtMode: 0
+  crtLinesMode: 0
+  screenLinesNum: 0
+  bleedAmount: 1
+  bleedDebugOn: 0
+  bleedCurveY:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: -1
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: -1
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  bleedCurveI:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0.5
+      inSlope: 0
+      outSlope: -0.5
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: -0.5
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  bleedCurveQ:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0.5
+      inSlope: 0
+      outSlope: -0.5
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: -0.5
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  bleedLength: 24
+  bleedCurveEditModeOn: 0
+  bleedCurveIQSyncOn: 1
+  fisheyeOn: 1
+  fisheyeBend: 2
+  fisheyeType: 0
+  fisheyeSize: 1.2
+  cutoffX: 2
+  cutoffY: 3
+  cutoffFadeX: 25
+  cutoffFadeY: 25
+  vignetteOn: 0
+  vignetteAmount: 1
+  vignetteSpeed: 1
+  noiseLinesMode: 1
+  noiseLinesNum: 240
+  noiseQuantizeX: 0
+  filmgrainOn: 0
+  filmGrainAmount: 0.016
+  signalNoiseOn: 1
+  signalNoiseAmount: 0.15
+  signalNoisePower: 0.83
+  tapeNoiseOn: 1
+  tapeNoiseTH: 0.63
+  tapeNoiseAmount: 1
+  tapeNoiseSpeed: 1
+  lineNoiseOn: 1
+  lineNoiseAmount: 1
+  lineNoiseSpeed: 5
+  scanLinesOn: 0
+  scanLineWidth: 10
+  linesFloatOn: 0
+  linesFloatSpeed: 1
+  stretchOn: 1
+  twitchHOn: 0
+  twitchHFreq: 1
+  twitchVOn: 0
+  twitchVFreq: 1
+  jitterHOn: 1
+  jitterHAmount: 0.5
+  jitterVOn: 0
+  jitterVAmount: 1
+  jitterVSpeed: 1
+  signalTweakOn: 0
+  signalAdjustY: 0
+  signalAdjustI: 0
+  signalAdjustQ: 0
+  signalShiftY: 1
+  signalShiftI: 1
+  signalShiftQ: 1
+  gammaCorection: 1
+  feedbackOn: 0
+  feedbackMode: 0
+  feedbackThresh: 0.1
+  feedbackAmount: 2
+  feedbackFade: 0.82
+  feedbackColor: {r: 1, g: 0.5, b: 0, a: 1}
+  feedbackDebugOn: 0
+  independentTimeOn: 0
+  bypassTex: {fileID: 0}
+  spriteTex: {fileID: 0}
 --- !u!4 &530720500 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4632073329976658465, guid: 0a8cb01afe7bf2e47bf886cfc03a99bb, type: 3}
@@ -3307,6 +3478,42 @@ TrailRenderer:
   m_MinVertexDistance: 0.3
   m_Autodestruct: 0
   m_Emitting: 1
+--- !u!21 &744806557
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Hidden/postVHSPro_Third
+  m_Shader: {fileID: 4800000, guid: de4e63e4455b14b8e8c57542f8089707, type: 3}
+  m_ValidKeywords: []
+  m_InvalidKeywords: []
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _FeedbackTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _LastTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats: []
+    m_Colors: []
+  m_BuildTextureStacks: []
 --- !u!1 &945471241
 GameObject:
   m_ObjectHideFlags: 0
@@ -6394,6 +6601,40 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4632073329976658465, guid: 0a8cb01afe7bf2e47bf886cfc03a99bb, type: 3}
   m_PrefabInstance: {fileID: 981763511}
   m_PrefabAsset: {fileID: 0}
+--- !u!21 &999950673
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Hidden/postVHSPro_First
+  m_Shader: {fileID: 4800000, guid: e5b137a48bf2c4c668927fd89b6ccbcd, type: 3}
+  m_ValidKeywords:
+  - VHS_FISHEYE_ON
+  - VHS_JITTER_H_ON
+  - VHS_LINENOISE_ON
+  - VHS_STRETCH_ON
+  - VHS_TAPENOISE_ON
+  - VHS_YIQNOISE_ON
+  m_InvalidKeywords: []
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats: []
+    m_Colors: []
+  m_BuildTextureStacks: []
 --- !u!1001 &1086283264
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -8042,6 +8283,34 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!21 &1152616757
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Hidden/postVHSPro_Clear
+  m_Shader: {fileID: 4800000, guid: 3c6a64923374747f7b15711533b5971a, type: 3}
+  m_ValidKeywords: []
+  m_InvalidKeywords: []
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats: []
+    m_Colors: []
+  m_BuildTextureStacks: []
 --- !u!1 &1163214243
 GameObject:
   m_ObjectHideFlags: 0
@@ -11468,6 +11737,71 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4632073329976658465, guid: 0a8cb01afe7bf2e47bf886cfc03a99bb, type: 3}
   m_PrefabInstance: {fileID: 1490193342}
   m_PrefabAsset: {fileID: 0}
+--- !u!21 &1599211555
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Hidden/postVHSPro_Tape
+  m_Shader: {fileID: 4800000, guid: caea6b3daf52a4416949b7b9c0146d77, type: 3}
+  m_ValidKeywords:
+  - VHS_LINENOISE_ON
+  - VHS_TAPENOISE_ON
+  m_InvalidKeywords: []
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats: []
+    m_Colors: []
+  m_BuildTextureStacks: []
+--- !u!21 &1664671266
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Hidden/postVHSPro_Second
+  m_Shader: {fileID: 4800000, guid: e2075d3cd3deb45c78fdc81aab250ef7, type: 3}
+  m_ValidKeywords:
+  - VHS_BLEED_ON
+  - VHS_FISHEYE_ON
+  - VHS_OLD_THREE_PHASE
+  m_InvalidKeywords: []
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _CurvesTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats: []
+    m_Colors: []
+  m_BuildTextureStacks: []
 --- !u!1 &1840838594
 GameObject:
   m_ObjectHideFlags: 0
@@ -12993,6 +13327,38 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4632073329976658465, guid: 0a8cb01afe7bf2e47bf886cfc03a99bb, type: 3}
   m_PrefabInstance: {fileID: 1874537568}
   m_PrefabAsset: {fileID: 0}
+--- !u!21 &1942523007
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Hidden/postVHSPro_Forth
+  m_Shader: {fileID: 4800000, guid: 65c19848f188f4192a05ff1eece78fee, type: 3}
+  m_ValidKeywords: []
+  m_InvalidKeywords: []
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _FeedbackTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats: []
+    m_Colors: []
+  m_BuildTextureStacks: []
 --- !u!1 &1978238965
 GameObject:
   m_ObjectHideFlags: 0

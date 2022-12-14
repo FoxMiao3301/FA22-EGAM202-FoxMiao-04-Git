@@ -120,7 +120,7 @@ MonoBehaviour:
   m_MinSize: {x: 400, y: 300}
   m_MaxSize: {x: 32384, y: 24288}
   vertical: 0
-  controlID: 219
+  controlID: 134
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -145,7 +145,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 300}
   m_MaxSize: {x: 16192, y: 24288}
   vertical: 1
-  controlID: 47
+  controlID: 149
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -198,7 +198,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 200}
   m_MaxSize: {x: 16192, y: 16192}
   vertical: 0
-  controlID: 137
+  controlID: 150
 --- !u!114 &9
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -223,7 +223,7 @@ MonoBehaviour:
   m_MinSize: {x: 100, y: 200}
   m_MaxSize: {x: 8096, y: 16192}
   vertical: 1
-  controlID: 60
+  controlID: 90
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -326,7 +326,7 @@ MonoBehaviour:
   m_MinSize: {x: 100, y: 200}
   m_MaxSize: {x: 8096, y: 16192}
   vertical: 1
-  controlID: 160
+  controlID: 173
 --- !u!114 &14
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -744,9 +744,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 0.40111122, y: 0.3607322, z: -9.966445}
+    m_Target: {x: -1.3334177, y: 1.4552134, z: -9.980446}
     speed: 2
-    m_Value: {x: 0.40111122, y: 0.3607322, z: -9.966445}
+    m_Value: {x: -1.3334177, y: 1.4552134, z: -9.980446}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -797,9 +797,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 5.6872735
+    m_Target: 7.0873775
     speed: 2
-    m_Value: 5.6872735
+    m_Value: 7.0873775
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -957,22 +957,22 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Scenes
+    - Assets/Script
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Scenes
+  - Assets/Script
   m_LastFoldersGridSize: -1
-  m_LastProjectPath: A:\ACCD\2022SP GameDev\FA22-EGAM202-FoxMiao-04-Try02\FA22-EGAM202-FoxMiao-04
+  m_LastProjectPath: A:\ACCD\2022SP GameDev\FA22-EGAM202-FoxMiao-04-Git
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 40730000
-    m_LastClickedID: 29504
-    m_ExpandedIDs: 00000000187300001a7300001c7300001e730000207300002273000000ca9a3b
+    m_SelectedIDs: 1e730000
+    m_LastClickedID: 29470
+    m_ExpandedIDs: 00000000fc720000fe7200000073000002730000047300000673000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1000,7 +1000,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000187300001a7300001c7300001e7300002073000022730000
+    m_ExpandedIDs: 00000000fc720000fe72000000730000027300000473000006730000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1027,7 +1027,7 @@ MonoBehaviour:
   m_ListAreaState:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 0
+    m_HadKeyboardFocusLastEvent: 1
     m_ExpandedInstanceIDs: c6230000cc6c0000ce9f0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -1086,7 +1086,7 @@ MonoBehaviour:
     m_SaveData: []
   m_LockTracker:
     m_IsLocked: 0
-  m_LastSelectedObjectID: 28190
+  m_LastSelectedObjectID: 28236
 --- !u!114 &23
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -1118,9 +1118,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 
+      m_SelectedIDs: 98180000
       m_LastClickedID: 0
-      m_ExpandedIDs: fcfaffff
+      m_ExpandedIDs: a0faffffa6fafffffcfaffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
